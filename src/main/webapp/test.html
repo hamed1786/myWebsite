@@ -1,0 +1,22 @@
+<html>
+<link href="setting.css" rel="stylesheet"></link>
+<script src="test.js"></script>
+<div id="header">
+	<div class="logo">hello</div>
+	<div id="slogan" onmouseover="sloganHighlight();"
+		onmouseout="sloganNormal();">JEE tutorial</div>
+	<div id="login">
+		<form action="http://localhost:8080/auth">
+			userid <input onfocus="uidFocus();" onblur="uidBlur();" type="text"
+				id="uid" name="uid" /><br> password<input type="password"
+				id="pwd" name="pwd" /><br> <input type="submit">
+	</div>
+
+</div>
+<div id="bodyOption">
+	<div id="menuOptions"></div>
+	<div id="mainContent"></div>
+</div>
+<div id="footer"></div>
+
+</html>

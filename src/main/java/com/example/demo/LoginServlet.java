@@ -9,6 +9,7 @@ public class LoginServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse res) {
 		try {
 			System.out.println("test");
+			
 			System.out.println("customer passed userid : " + req.getParameter("uid"));
 			System.out.println("customer passed password : " + req.getParameter("pwd"));
 			String userid = req.getParameter("uid"); // john
